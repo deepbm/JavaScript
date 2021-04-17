@@ -1,48 +1,48 @@
 body {
-	margin: 0;
-	padding: 0;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .main {
-	width: 350px;
-	margin: 40px;
-	padding: 30px 0;
-	background-color: #FCFCFC;
-	/* 쉼표로 구분해서 여러개의 그림자 효과를 입힐 수 있다 */
-	box-shadow: -5px -5px 20px #DFDFDF, 5px 5px 20px #DFDFDF;
-	border-radius: 8px;
-	text-align: center;
+  width: 350px;
+  margin: 40px;
+  padding: 30px 0;
+  background-color: #FCFCFC;
+  /* 쉼표로 구분해서 여러 개의 그림자 효과를 입힐 수 있다. */
+  box-shadow: -5px -5px 20px #DFDFDF, 5px 5px 20px #DFDFDF;
+  border-radius: 8px;
+  text-align: center;
 }
 
 .title {
-	margin: 15px auto;
-	font-size: 30px;
-	font-weight: 600;
-	color: #154d26;
+  margin: 15px auto;
+  font-size: 30px;
+  font-weight: 600;
+  color: #154D26;
 }
 
 #to-do-list {
   width: 280px;
-	margin: 0 auto 15px;
-	padding: 0;
-	list-style: none;
+  margin: 0 auto 15px;
+  padding: 0;
+  list-style: none;
 }
 
 #to-do-list li {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 90%;
-	height: 40px;
-	margin: 8px auto 15px;
-	border-bottom: 1px solid #154d26;
-	cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 40px;
+  margin: 8px auto 15px;
+  border-bottom: 1px solid #154D26;
+  cursor: pointer;
 }
 
 .done {
-	opacity: 0.5;
-	text-decoration: line-through;
+  opacity: 0.5;
+  text-decoration: line-through;
 }
