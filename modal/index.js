@@ -1,7 +1,7 @@
 $('.btn-login').on('click', () => {
-  $('.black-background').show();
+  $('.black-background').fadeIn();
 });
 
 $('.btn-close').on('click', () => {
-  $('.black-background').hide();
+  $('.black-background').fadeOut();
 });
