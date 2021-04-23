@@ -21,6 +21,28 @@
 }
 
 
+/* navbar */
+.nav-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.nav-main h3 {
+  margin: 0;
+}
+
+.nav-main a {
+  color: black;
+  text-decoration: none;
+}
+
+.nav-sub {
+  display: none;
+}
+
+
 /* jumbotron */
 .main-image {
   background-image: url(images/main-img.jpg);

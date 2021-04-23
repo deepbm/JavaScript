@@ -5,3 +5,7 @@ $('.btn-login').on('click', () => {
 $('.btn-close').on('click', () => {
   $('.black-background').fadeOut();
 });
+
+$('.btn-nav-sub').on('click', () => {
+  $('.nav-sub').slideToggle();
+});
