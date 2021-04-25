@@ -6,6 +6,18 @@ $('.btn-close').on('click', () => {
   $('.black-background').fadeOut();
 });
 
+$('.btn-menu').click(() => {
+  $('.side-menu').animate({
+    marginLeft: '0px'
+  })
+});
+
+$('.btn-close-side').click(() => {
+  $('.side-menu').animate({
+    marginLeft: '-150px'
+  })
+});
+
 $('.btn-nav-sub').on('click', () => {
   $('.nav-sub').slideToggle();
 });
