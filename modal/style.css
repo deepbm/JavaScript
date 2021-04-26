@@ -5,7 +5,9 @@
   height: 100%;
   position: fixed;
   z-index: 5;
-  display: none;
+  /* display: none; */
+  transition: all 1s;
+  transform: translateY(-100%);
 }
 
 .login {
@@ -22,6 +24,10 @@
 
 .alert-email, .alert-pw {
   display: none;
+}
+
+.slide-down {
+  transform: translateY(0);
 }
 
 

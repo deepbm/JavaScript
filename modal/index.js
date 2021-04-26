@@ -1,9 +1,9 @@
 $('.btn-login').on('click', () => {
-  $('.black-background').fadeIn();
+  $('.black-background').addClass('slide-down');
 });
 
 $('.btn-close').on('click', () => {
-  $('.black-background').fadeOut();
+  $('.black-background').removeClass('slide-down');
 });
 
 $('.btn-menu').click(() => {
