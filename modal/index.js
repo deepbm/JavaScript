@@ -32,3 +32,15 @@ $('form').on('submit', e => {
     $('.alert-pw').show();
   }
 });
+
+$('.btn-slide1').click(() => {
+  $('.slide-container').removeClass('slide-100 slide-200')
+});
+
+$('.btn-slide2').click(() => {
+  $('.slide-container').addClass('slide-100')
+});
+
+$('.btn-slide3').click(() => {
+  $('.slide-container').addClass('slide-200')
+});

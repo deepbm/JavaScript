@@ -86,3 +86,31 @@
   background-size: cover;
   background-position: center;
 }
+
+
+/* carousel */
+.slide-wrapper {
+  overflow: hidden;
+}
+
+.slide-container {
+  width: 300vw;
+  transition: transform 1s;
+}
+
+.slide-box {
+  width: 100vw;
+  float: left;
+}
+
+.slide-box img {
+  width: 100%;
+}
+
+.slide-100 {
+  transform: translateX(-100vw);
+}
+
+.slide-200 {
+  transform: translateX(-200vw);
+}
