@@ -91,6 +91,7 @@
 /* carousel */
 .slide-wrapper {
   overflow: hidden;
+  position: relative;
 }
 
 .slide-container {
@@ -107,10 +108,23 @@
   width: 100%;
 }
 
-.slide-100 {
+/* .slide-100 {
   transform: translateX(-100vw);
 }
 
 .slide-200 {
   transform: translateX(-200vw);
+} */
+
+.btn-left {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  z-index: 20;
+}
+
+.btn-right {
+  position: absolute;
+  top: 50%;
+  right: 20px;
 }
