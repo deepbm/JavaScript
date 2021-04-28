@@ -1,0 +1,55 @@
+.nav-menu {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  transition: background 1s;
+}
+
+.logo {
+  margin-left: 20px;
+}
+
+.logo a {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.menu {
+  margin: 0;
+  list-style: none;
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.menu li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav-black {
+  background-color: black;
+  opacity: 1;
+}
+
+.main-img {
+  background-image: url(images/main-img.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+.main {
+  height: 1000px;
+}
