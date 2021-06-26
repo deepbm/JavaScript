@@ -15,6 +15,7 @@ javascript를 공부하면서 기억하고 싶은 코드
 - [scroll_UI](#scroll-UI)
 - [typing_animation](#typing-animation)
 - [Ajax](#ajax-get)
+- [Babel_Webpack](#babel-webpack)
 <br />
 <br />
 <br />
@@ -208,3 +209,10 @@ ajax 통신으로 새로고침없이 데이터 가져오는 기능 구현
 
 ### > 기억하고 싶은 부분
 - jQuery ajax 함수를 사용하면 받아온 json 데이터를 알아서 object로 변환해준다.
+
+<br />
+
+<a name="babel-webpack"></a>
+
+# Babel_Webpack
+Babel과 Webpack을 이용한 ES6 환경 구축 (📎[velog](https://velog.io/@deepbm/Babel))
